@@ -3,33 +3,33 @@
     <thead>
     <tr>
       <th scope="col">#</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
+      <th scope="col">Titre</th>
+      <th scope="col">Détails</th>
     </tr>
     </thead>
     <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>Larry</td>
-      <td>the Bird</td>
-      <td>@twitter</td>
+    <tr v-for="item in posts">
+      <th scope="row">{{item.id}}</th>
+      <td>{{item.title}}</td>
+      <td>
+        <nuxt-link :to="{name:'post-id',params:{id:item.id}}" :key="item.id">
+          voir détails
+        </nuxt-link>
+      </td>
     </tr>
     </tbody>
   </table>
 </template>
 <script>
-  export default {}
+  export default {
+    data() {
+      return {
+      }
+    },
+    computed: {
+      posts () {
+        return this.$store.state.post.all
+      }
+    }
+  }
 </script>

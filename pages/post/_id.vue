@@ -16,7 +16,7 @@ export default {
   },
   computed: {
     elem() {
-      return this.posts.find((post) => post.id === this.id)
+      return this.$store.state.post.all.find((post) => post.id === this.id)
     }
   }
 }
