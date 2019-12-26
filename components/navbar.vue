@@ -1,6 +1,6 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand">Navbar</a>
+    <a class="navbar-brand"><nuxt-link to="/">Devcorp</nuxt-link></a>
     <button
       class="navbar-toggler"
       type="button"
