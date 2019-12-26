@@ -22,7 +22,12 @@
         </li>
         <li class="nav-item">
           <a class="nav-link">
-            <nuxt-link to="articles">Projets</nuxt-link>
+            <nuxt-link to="/articles">Projets</nuxt-link>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">
+            <nuxt-link to="/post/add">Ajouter un projet</nuxt-link>
           </a>
         </li>
       </ul>
