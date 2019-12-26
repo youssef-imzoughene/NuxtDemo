@@ -19,4 +19,15 @@ export const state = () => ({
         ' ndard. De nombreuses suites logicielles de mise en page '
     }
   ]
-})
+});
+export const mutations = {
+  add (state, projet) {
+    state.all.push(projet)
+  },
+  remove (state, { todo }) {
+    state.all.splice(state.all.indexOf(todo), 1)
+  },
+  toggle (state, todo) {
+    todo.done = !todo.done
+  }
+};

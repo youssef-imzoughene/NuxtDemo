@@ -17,11 +17,6 @@
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
           <a class="nav-link">
-            <nuxt-link to="/">Accueil</nuxt-link>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link">
             <nuxt-link to="/articles">Projets</nuxt-link>
           </a>
         </li>
