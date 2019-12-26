@@ -35,10 +35,10 @@
     },
     methods: {
       addProjet () {
-        this.$store.commit('post/add', {
-          id:this.id,
-          content : this.content,
-          title:this.title
+        this.$store.dispatch('post/addProject', {
+          id: this.id,
+          content: this.content,
+          title: this.title
         });
       }
     }

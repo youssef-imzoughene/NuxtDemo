@@ -1,5 +1,5 @@
 export const state = () => ({
-  all : [
+  all: [
     {
       id: 'Iwaco',
       title: 'Iwaco (Inwi Maroc)',
@@ -21,13 +21,32 @@ export const state = () => ({
   ]
 });
 export const mutations = {
-  add (state, projet) {
+  add(state, projet) {
+    console.log(projet);
     state.all.push(projet)
   },
-  remove (state, { todo }) {
+  remove(state, {todo}) {
     state.all.splice(state.all.indexOf(todo), 1)
   },
-  toggle (state, todo) {
+  toggle(state, todo) {
     todo.done = !todo.done
+  }
+};
+
+// export const actions = {
+//   addProjet() {
+//     this.$store.commit('post/add', {
+//       id: this.id,
+//       content: this.content,
+//       title: this.title
+//     });
+//   }
+// }
+
+
+export const actions = {
+  addProject({commit}, params) {
+    console.log('test');
+    commit('add', params);
   }
 };
