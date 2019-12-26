@@ -3,25 +3,25 @@
     <div>
       <logo />
       <h1 class="title">
-        adobe
+        Devcorp
       </h1>
       <h2 class="subtitle">
-        My funkadelic Nuxt.js project
+        Devcorp est une agence de développement informatique et de marketing digital
       </h2>
       <div class="links">
         <a
-          href="https://nuxtjs.org/"
+          href="https://www.devcorp.fr/"
           target="_blank"
           class="button--green"
         >
-          Documentation
+          Site Officiel
         </a>
         <a
-          href="https://github.com/nuxt/nuxt.js"
+          href="https://www.linkedin.com/company/devcorp"
           target="_blank"
           class="button--grey"
         >
-          GitHub
+          Linkedin
         </a>
       </div>
     </div>

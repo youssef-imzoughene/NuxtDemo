@@ -1,22 +1,22 @@
 export const state = () => ({
   all : [
     {
-      id: 'rouge',
-      title: 'tortue',
+      id: 'Iwaco',
+      title: 'Iwaco (Inwi Maroc)',
+      content:
+        ' st le faux texte standard de l\'imprimerie depuis les anné'
+    },
+    {
+      id: 'Vallesud',
+      title: 'Vallesud RamasseTout',
       content:
         ' qui quod? Architecto atque dolor ea, inventore molestias nisi'
     },
     {
-      id: 'bleu',
-      title: 'loup',
+      id: 'PGA',
+      title: 'PGA (Prevas santé)',
       content:
-        ' qui quod? Architecto atque dolor ea, inventore molestias nisi'
-    },
-    {
-      id: 'vert',
-      title: 'souris',
-      content:
-        ' qui quod? Architecto atque dolor ea, inventore molestias nisi'
+        ' ndard. De nombreuses suites logicielles de mise en page '
     }
   ]
 })

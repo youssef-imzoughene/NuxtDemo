@@ -22,7 +22,7 @@
         </li>
         <li class="nav-item">
           <a class="nav-link">
-            <nuxt-link to="articles">Posts</nuxt-link>
+            <nuxt-link to="articles">Projets</nuxt-link>
           </a>
         </li>
       </ul>

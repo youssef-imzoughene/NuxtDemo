@@ -17,7 +17,10 @@
 <style>
   h1 {
     color: orangered;
-    border: 1px solid darkgreen;
+    border: 2px solid #3498db;
+    border-radius: 20px;
+    background-color: #e67e22;
+    padding: 10px;
   }
 
   html {
